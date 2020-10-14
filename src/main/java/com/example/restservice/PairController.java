@@ -7,6 +7,9 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import org.springframework.web.bind.annotation.*;
 
+import javax.ws.rs.Consumes;
+import javax.ws.rs.core.MediaType;
+
 @RestController
 public class PairController {
 
@@ -17,13 +20,13 @@ public class PairController {
         this.participantListBuilder = participantListBuilder;
     }
 
-    @GetMapping("/pair/{id}")
-    public String getPair(@PathVariable String id) {
-        return "Your pair is: " + pairs.get(id);
+    @GetMapping("/pair/{name}")
+    public String getPair(@PathVariable String name) {
+        return "Your pair is: " + pairs.get(name);
     }
 
     @PostMapping("/pairs")
-    public Map<String, String> createPairs(@RequestBody List<String> participants) {
+    public Map<String, String> createPairs(@RequestBody Map<String, String> participants) {
         System.out.println("Executing Post.");
         pairs = participantListBuilder.buildPairs(participants);
         return pairs;
