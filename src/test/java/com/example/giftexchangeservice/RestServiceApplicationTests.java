@@ -1,4 +1,4 @@
-package com.example.restservice;
+package com.example.giftexchangeservice;
 
 import org.junit.jupiter.api.Test;
 

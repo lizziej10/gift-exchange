@@ -23,10 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097cb0c9-d601-4cac-b717-20ec82c9e2cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restservice/PairController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restservice/ParticipantListBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/giftexchangeservice/PairController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/giftexchangeservice/ParticipantListBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/giftexchangeservice/PairControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/giftexchangeservice/ParticipantListBuilderTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../socket-sender-and-reciever-maven/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restservice/RestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/giftexchangeservice/RestServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/restservice/RestServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/giftexchangeservice/RestServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +64,46 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Maven.rest-service [spring-boot:run]">
+  <component name="RunManager" selected="JUnit.ParticipantListBuilderTest.buildPairsListEvenNumberOfParticipants">
     <configuration name="RestServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.restservice.RestServiceApplication" />
       <module name="rest-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.restservice.*" />
+          <option name="PATTERN" value="com.example.giftexchangeservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParticipantListBuilderTest.buildPairsListEvenNumberOfParticipants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.giftexchangeservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.giftexchangeservice" />
+      <option name="MAIN_CLASS_NAME" value="com.example.giftexchangeservice.ParticipantListBuilderTest" />
+      <option name="METHOD_NAME" value="buildPairsListEvenNumberOfParticipants" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.giftexchangeservice in rest-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.giftexchangeservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.giftexchangeservice" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,9 +163,13 @@
       <item itemvalue="Application.RestServiceApplication" />
       <item itemvalue="Maven.rest-service [clean,install]" />
       <item itemvalue="Maven.rest-service [spring-boot:run]" />
+      <item itemvalue="JUnit.com.example.giftexchangeservice in rest-service" />
+      <item itemvalue="JUnit.ParticipantListBuilderTest.buildPairsListEvenNumberOfParticipants" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParticipantListBuilderTest.buildPairsListEvenNumberOfParticipants" />
+        <item itemvalue="JUnit.com.example.giftexchangeservice in rest-service" />
         <item itemvalue="Application.RestServiceApplication" />
       </list>
     </recent_temporary>
@@ -164,22 +202,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" width="1248" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599587268760" />
-    <state width="1398" height="366" key="GridCell.Tab.0.bottom" timestamp="1600537237068">
+    <state width="1398" height="366" key="GridCell.Tab.0.bottom" timestamp="1602689414731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="366" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600537237068" />
-    <state width="1398" height="366" key="GridCell.Tab.0.center" timestamp="1600537237066">
+    <state width="1398" height="366" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602689414731" />
+    <state width="1398" height="366" key="GridCell.Tab.0.center" timestamp="1602689414730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="366" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600537237066" />
-    <state width="1398" height="366" key="GridCell.Tab.0.left" timestamp="1600537237065">
+    <state width="1398" height="366" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602689414730" />
+    <state width="1398" height="366" key="GridCell.Tab.0.left" timestamp="1602689414729">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="366" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600537237065" />
-    <state width="1398" height="366" key="GridCell.Tab.0.right" timestamp="1600537237067">
+    <state width="1398" height="366" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602689414729" />
+    <state width="1398" height="366" key="GridCell.Tab.0.right" timestamp="1602689414730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="366" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600537237067" />
+    <state width="1398" height="366" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602689414730" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1599616431573">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
